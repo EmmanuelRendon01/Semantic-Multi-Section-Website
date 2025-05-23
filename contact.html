@@ -1,0 +1,42 @@
+<!-- Formulario con los siguientes campos:
+Nombre
+Correo electrónico
+Asunto
+Mensaje
+Usa etiquetas semánticas (<form>, <fieldset>, <label>, <input>, <textarea>, etc.).
+Incluye texto de ayuda con <small> y ejemplos de formato con <abbr> si aplica. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+
+        </nav>
+    </header>
+    <main>
+        <section id="form">
+            <form action="" class="form-info">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subjetc">Subject</label>
+                <input type="text" id="subjetc" name="subjetc" required>
+
+                <!-- Falta fieldset, usar small y abbr -->
+    
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" required></textarea>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
