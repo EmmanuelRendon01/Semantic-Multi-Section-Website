@@ -6,18 +6,82 @@ Asegúrate de que cada imagen tenga su respectivo texto alternativo (alt). -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gallery website</title>
+    <style>
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 1rem;
+        }
+        section.gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+        figure {
+            margin: 0;
+            border: 1px solid #ccc;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 0.5rem auto;
+        }
+        figcaption {
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav id="nav-bar">
-
+            <ul>
+                <li><a href="index.html">Main page</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about-me.html">About me</a></li>
+                <li><a href="tag.html">Tag Website</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <!-- Usa contenedores semánticos (<section>, <figure>, <figcaption>). -->
+        <section class="gallery-grid">
+            <figure>
+                <img src="img1.jpg" alt="Descripción de la imagen 1" />
+                <figcaption>Imagen 1: descripción breve</figcaption>
+            </figure>
+            <figure>
+                <img src="img2.jpg" alt="Descripción de la imagen 2" />
+                <figcaption>Imagen 2: descripción breve</figcaption>
+            </figure>
+            <figure>
+                <img src="img3.jpg" alt="Descripción de la imagen 3" />
+                <figcaption>Imagen 3: descripción breve</figcaption>
+            </figure>
+            <figure>
+                <img src="img4.jpg" alt="Descripción de la imagen 4" />
+                <figcaption>Imagen 4: descripción breve</figcaption>
+            </figure>
+            <figure>
+                <img src="img5.jpg" alt="Descripción de la imagen 5" />
+                <figcaption>Imagen 5: descripción breve</figcaption>
+            </figure>
+            <figure>
+                <img src="img6.jpg" alt="Descripción de la imagen 6" />
+                <figcaption>Imagen 6: descripción breve</figcaption>
+            </figure>
+        </section>
     </main>
+    <footer>
+        <p>&copy; 2025 Mi sitio web. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>

@@ -14,32 +14,86 @@ Una sección por cada etiqueta. -->
 <body>
     <header>
         <nav id="nav-bar">
-
+            <ul>
+                <li><a href="index.html">Main page</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about-me.html">About me</a></li>
+                <li><a href="tag.html">Tag Website</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <section class="alltags">
-            <!-- Usar code, and pre -->
+
+            <!-- 1. ARTICLE -->
             <section id="article">
-
+                <h2>&lt;article&gt;</h2>
+                <p>La etiqueta <strong>&lt;article&gt;</strong> se usa para contenido independiente que podría distribuirse o reutilizarse, como una entrada de blog, una noticia o un comentario.</p>
+                <pre><code>
+                    &lt;article&gt;
+                    &lt;h2&gt;Noticias del día&lt;/h2&gt;
+                    &lt;p&gt;Hoy se lanzó una nueva versión de HTML...&lt;/p&gt;
+                    &lt;/article&gt;
+                </code></pre>
             </section>
 
+            <!-- 2. SECTION -->
             <section id="section">
-
+                <h2>&lt;section&gt;</h2>
+                <p><strong>&lt;section&gt;</strong> agrupa contenido relacionado bajo un mismo tema. Puede contener encabezados, párrafos, artículos, etc.</p>
+                <pre><code>
+                    &lt;section&gt;
+                    &lt;h2&gt;Servicios&lt;/h2&gt;
+                    &lt;p&gt;Ofrecemos desarrollo web, diseño UI/UX y SEO.&lt;/p&gt;
+                    &lt;/section&gt;
+                </code></pre>
             </section>
 
+            <!-- 3. NAV -->
             <section id="nav">
-
+                <h2>&lt;nav&gt;</h2>
+                <p><strong>&lt;nav&gt;</strong> define una sección con enlaces de navegación. Usualmente se encuentra en menús, barras laterales o encabezados.</p>
+                <pre><code>
+                    &lt;nav&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href="index.html"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="contact.html"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/nav&gt;
+                </code></pre>
             </section>
 
+            <!-- 4. HEADER -->
             <section id="header">
-                
+                <h2>&lt;header&gt;</h2>
+                <p><strong>&lt;header&gt;</strong> representa la cabecera de una página o una sección. Suele contener el logo, el título y la navegación principal.</p>
+                <pre><code>
+                    &lt;header&gt;
+                    &lt;h1&gt;Mi blog personal&lt;/h1&gt;
+                    &lt;nav&gt;...&lt;/nav&gt;
+                    &lt;/header&gt;
+                </code></pre>
             </section>
 
+            <!-- 5. FOOTER -->
             <section id="footer">
-
+                <h2>&lt;footer&gt;</h2>
+                <p><strong>&lt;footer&gt;</strong> define el pie de una página o sección. Suele incluir información de contacto, derechos de autor, o enlaces útiles.</p>
+                <pre><code>
+                    &lt;footer&gt;
+                    &lt;p&gt;&copy; 2025 Mi sitio web. Todos los derechos reservados.&lt;/p&gt;
+                    &lt;/footer&gt;
+                </code></pre>
             </section>
+
         </section>
     </main>
+    <footer>
+        <p>&copy; 2025 Mi sitio web. Todos los derechos reservados.</p>
+
+    </footer>
 </body>
 </html>
