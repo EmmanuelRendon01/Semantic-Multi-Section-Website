@@ -8,30 +8,12 @@ Agrupados dentro de una <section>. -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Products</title>
-        <style>
-            .products-list {
-                display: flex;
-                gap: 20px;
-                flex-wrap: wrap;
-            }
-            .product {
-                border: 1px solid #ccc;
-                padding: 15px;
-                width: 300px;
-                box-sizing: border-box;
-            }
-            .product img {
-                max-width: 100%;
-                height: auto;
-                display: block;
-                margin-bottom: 10px;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <nav id="nav-bar">
-                <ul>
+                <ul class="link-list">
                     <li><a href="index.html">Main page</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="blog.html">Blog</a></li>
@@ -43,27 +25,53 @@ Agrupados dentro de una <section>. -->
             </nav>
         </header>
         <main>
+            <h2 class="main-title">Products</h2>
             <section class="products-list">
-    
                 <article class="product">
                     <h2>Tarjeta Gráfica NVIDIA RTX 4070</h2>
-                    <img src="https://example.com/rtx4070.jpg" alt="Tarjeta gráfica NVIDIA RTX 4070" />
+                    <img src="https://systorecolombia.com/4874-large_default/tarjeta-de-video-msi-geforce-rtx-4070-super-12g-gaming-x-slim-.jpg" alt="Tarjeta gráfica NVIDIA RTX 4070" />
                     <p>Rendimiento excepcional para gaming y creación de contenido en 4K.</p>
                     <p><strong>Precio:</strong> $3.200.000 COP</p>
+                    <button>Comprar</button>
                 </article>
     
                 <article class="product">
                     <h2>Procesador AMD Ryzen 7 5800X</h2>
-                    <img src="https://example.com/ryzen7_5800x.jpg" alt="Procesador AMD Ryzen 7 5800X" />
+                    <img src="https://systorecolombia.com/1652-large_default/procesador-amd-ryzen-7-5800x-lga-am4-octa-core.jpg" alt="Procesador AMD Ryzen 7 5800X" />
                     <p>Alto rendimiento para gaming y tareas multitarea exigentes.</p>
                     <p><strong>Precio:</strong> $1.500.000 COP</p>
+                    <button>Comprar</button>
                 </article>
     
                 <article class="product">
                     <h2>Tarjeta Gráfica AMD Radeon RX 7900 XT</h2>
-                    <img src="https://example.com/rx7900xt.jpg" alt="Tarjeta gráfica AMD Radeon RX 7900 XT" />
+                    <img src="https://dlcdnwebimgs.asus.com/gain/fb9f76f9-c3d6-40e8-b09d-657208eda5cd/" alt="Tarjeta gráfica AMD Radeon RX 7900 XT" />
                     <p>Excelente potencia gráfica para juegos y diseño profesional.</p>
                     <p><strong>Precio:</strong> $3.400.000 COP</p>
+                    <button>Comprar</button>
+                </article>
+                <article class="product">
+                    <h2>Tarjeta Gráfica NVIDIA RTX 4070</h2>
+                    <img src="https://systorecolombia.com/4874-large_default/tarjeta-de-video-msi-geforce-rtx-4070-super-12g-gaming-x-slim-.jpg" alt="Tarjeta gráfica NVIDIA RTX 4070" />
+                    <p>Rendimiento excepcional para gaming y creación de contenido en 4K.</p>
+                    <p><strong>Precio:</strong> $3.200.000 COP</p>
+                    <button>Comprar</button>
+                </article>
+    
+                <article class="product">
+                    <h2>Procesador AMD Ryzen 7 5800X</h2>
+                    <img src="https://systorecolombia.com/1652-large_default/procesador-amd-ryzen-7-5800x-lga-am4-octa-core.jpg" alt="Procesador AMD Ryzen 7 5800X" />
+                    <p>Alto rendimiento para gaming y tareas multitarea exigentes.</p>
+                    <p><strong>Precio:</strong> $1.500.000 COP</p>
+                    <button>Comprar</button>
+                </article>
+    
+                <article class="product">
+                    <h2>Tarjeta Gráfica AMD Radeon RX 7900 XT</h2>
+                    <img src="https://dlcdnwebimgs.asus.com/gain/fb9f76f9-c3d6-40e8-b09d-657208eda5cd/" alt="Tarjeta gráfica AMD Radeon RX 7900 XT" />
+                    <p>Excelente potencia gráfica para juegos y diseño profesional.</p>
+                    <p><strong>Precio:</strong> $3.400.000 COP</p>
+                    <button>Comprar</button>
                 </article>
     
             </section>
