@@ -68,4 +68,129 @@ body{
   background-color: #111111;
 }
 
-/*  */
+/* BLOG */
+
+#blog-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog-main .blog{
+  width: 50%;
+  padding: 2vh;
+}
+
+.blog-info{
+  padding-top: 4vh;
+}
+
+/* CONTACT PAGE */
+
+#main-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form{
+  width: 30%;
+}
+
+.contact-fieldset{
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#form #button-form{
+  display: block;
+  margin: 4vh auto;
+  background-color: #000000; /* Green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 2vh;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* ABOUT-ME  */
+
+#about-me-main{
+  display: flex;
+  justify-content: center;
+
+}
+
+#about-me{
+  width: 50%;
+  padding: 2vh;
+  margin-top: 2vh;
+}
+
+#about-me img{
+  width: 20vh;
+}
+
+/* TAGS */
+
+#main-tags{
+  display: flex;
+  justify-content: center;
+}
+
+.alltags {
+  width: 50%;
+}
+
+/* GALLERY */
+
+#gallery-main{
+  display: flex;
+  flex-direction: column;
+}
+
+#gallery-main h2{
+  text-align: center;
+}
+
+.gallery-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vh;
+}
+
+#figure-gallery{
+  border: 1px solid #ccc;
+  width: 20%;
+  padding: 1rem;
+}
+
+
+
+#gallery-main img{
+  width: 100%;
+  height: 20vh;
+
+}
+/* 
+
+#gallery-main{
+  font-size: 0.9rem;
+  color: #555;
+}  */
+
+/* FOOTER */
+
+#footer{
+  text-align: center;
+}
+
+
+
+
+
+
+  

@@ -10,7 +10,7 @@ Asegúrate de que cada imagen tenga su respectivo texto alternativo (alt). -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gallery website</title>
     <link rel="stylesheet" href="style.css">
-    <style>
+    <!-- <style>
         main {
             max-width: 900px;
             margin: auto;
@@ -37,7 +37,7 @@ Asegúrate de que cada imagen tenga su respectivo texto alternativo (alt). -->
             font-size: 0.9rem;
             color: #555;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <header>
@@ -53,35 +53,49 @@ Asegúrate de que cada imagen tenga su respectivo texto alternativo (alt). -->
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="gallery-main">
+        <h2>Gallery</h2>
         <section class="gallery-grid">
-            <figure>
-                <img src="img1.jpg" alt="Descripción de la imagen 1" />
-                <figcaption>Imagen 1: descripción breve</figcaption>
+            <figure id="figure-gallery">
+                <img src="https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/germany-0.jpg" alt="Descripción de la imagen 1" />
+                <figcaption>Imagen 1: Sitio en Alemania</figcaption>
             </figure>
-            <figure>
-                <img src="img2.jpg" alt="Descripción de la imagen 2" />
-                <figcaption>Imagen 2: descripción breve</figcaption>
+            <figure id="figure-gallery">
+                <img src="https://2021-2025.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2.jpg" alt="Descripción de la imagen 2" />
+                <figcaption>Imagen 2: Sitio en Francia</figcaption>
             </figure>
-            <figure>
-                <img src="img3.jpg" alt="Descripción de la imagen 3" />
-                <figcaption>Imagen 3: descripción breve</figcaption>
+            <figure id="figure-gallery">
+                <img src="https://www.hola.com/horizon/square/6dc496c96118-hallstatt-2sb897g.jpg" alt="Descripción de la imagen 3" />
+                <figcaption>Imagen 3: Sitio en Austria</figcaption>
             </figure>
-            <figure>
-                <img src="img4.jpg" alt="Descripción de la imagen 4" />
-                <figcaption>Imagen 4: descripción breve</figcaption>
+            <figure id="figure-gallery">
+                <img src="https://cdn.ama.ab.ca/amatravelinternal/articles/images/double-decker-london.jpg" alt="Descripción de la imagen 4" />
+                <figcaption>Imagen 4: Sitio en Inglaterra</figcaption>
             </figure>
-            <figure>
-                <img src="img5.jpg" alt="Descripción de la imagen 5" />
-                <figcaption>Imagen 5: descripción breve</figcaption>
+            <figure id="figure-gallery">
+                <img src="https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/020/484/original/d0531471711b367b94abfd4dbc29e6ae/spain-barcelona-sagrada-familia-080416-az.jpg" alt="Descripción de la imagen 5" />
+                <figcaption>Imagen 5: Sitio en la ciudad de Barcelona</figcaption>
             </figure>
-            <figure>
-                <img src="img6.jpg" alt="Descripción de la imagen 6" />
-                <figcaption>Imagen 6: descripción breve</figcaption>
+            <figure id="figure-gallery">
+                <img src="https://d1c96a4wcgziwl.cloudfront.net/37f9COL5.jpg" alt="Descripción de la imagen 6" />
+                <figcaption>Imagen 6: Sitio en la ciudad de Roma</figcaption>
             </figure>
+            <figure id="figure-gallery">
+                <img src="https://cdnwordpresstest-f0ekdgevcngegudb.z01.azurefd.net/es/wp-content/uploads/2021/11/vista-de-la-comuna-13-en-medellin.jpg" alt="Descripción de la imagen 6"/>
+                <figcaption>Imagen 7: Sitio en la ciudad de Medellín</figcaption>
+            </figure>
+            <figure id="figure-gallery">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEqlcN8EOF12CcdTbI9ZBY40qV41_m1IEt3g&s" alt="Descripción de la imagen 6"/>
+                <figcaption>Imagen 8: Sitio en Brasil</figcaption>
+            </figure>
+            <figure id="figure-gallery">
+                <img src="https://www.pelago.com/img/countries/japan/1201-0821_japan-book-things-to-do-pelago.jpg" alt="Descripción de la imagen 6" />
+                <figcaption>Imagen 9: Sitio en japón</figcaption>
+            </figure>
+            
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <p>&copy; 2025 Mi sitio web. Todos los derechos reservados.</p>
     </footer>
 </body>
