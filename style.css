@@ -31,24 +31,23 @@ body{
   background-color: #111111;
 }
 
-/*  */
-
 /* PRODUCTS PAGE */
 .main-title{
   text-align: center;
 }
 .products-list{
+    padding-top: 3vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1vh;
+    gap: 5vh;
 }
 
 .product {
     border: 1px solid #ccc;
     padding: 3vh;
-    width: 25%;
     box-sizing: border-box;
+    width: 20%;
 }
 .product img {
     height: 20vh;
